@@ -8,7 +8,7 @@
     <Description>dotnet-Perks.Codegen tool for AzureSDK tooling</Description>
     
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp1.0;netstandard1.3</TargetFrameworks>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <PackageType>DotnetCliTool</PackageType>
   </PropertyGroup>  
 
@@ -28,6 +28,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="1.1.2" />
   </ItemGroup>
 </Project>
